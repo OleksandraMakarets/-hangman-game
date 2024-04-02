@@ -38,3 +38,15 @@ def choose_word(category, level):
     else:
         print("Invalid category.")
         return None
+
+
+# Function to display hangman
+def print_hangman(wrong):
+    if wrong == 0:
+        print("\n+---+")
+        print("    |")
+        print("    |")
+        print("    |")
+        print("   ===")
+    elif wrong == 1:
+        print(r"""
