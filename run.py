@@ -149,4 +149,11 @@ def play_hangman():
             else:
                 tries -= 1
                 print("Incorrect!")
+        
+        # Game result
+        if '_' not in guessed_word:
+            print(f"Congratulations, {name}! You've guessed the word:", word)
+        else:
+            print("Game over, you lose! The word was:", word)
+            print_hangman(6)  # Display the last hanged man when losing
 
