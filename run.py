@@ -94,7 +94,15 @@ O   |
 
 def play_hangman():
     print("Welcome to Hangman!")
-    name = input("Enter your name: ")
+
+    # Input validation for name
+    while True:
+        name = input("Enter your name: ")
+        if name.strip():  # Check if name is not empty
+            break
+        else:
+            print("Please enter a valid name.")
+
     print("Rules:")
     print("- You will be presented with a word to guess.")
     print("- Guess the letters in the word.")
