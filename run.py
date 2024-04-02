@@ -141,3 +141,12 @@ def play_hangman():
             # Check if the guessed letter is in the word
             guessed_letters.append(guess)
 
+            if guess in word:
+                for i in range(len(word)):
+                    if word[i] == guess:
+                        guessed_word[i] = guess
+                print("Correct!")
+            else:
+                tries -= 1
+                print("Incorrect!")
+
