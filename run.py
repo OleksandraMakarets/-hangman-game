@@ -162,3 +162,6 @@ def play_hangman():
         if play_again != "yes":
             break
 
+
+# Play the game
+play_hangman()
