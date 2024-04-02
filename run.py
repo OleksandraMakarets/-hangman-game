@@ -83,7 +83,7 @@ O   |
 /|\ |
 /   |
    ===""")
-    else:  
+    else:
         print(r"""
 +---+
  O  |
@@ -115,7 +115,7 @@ def play_hangman():
         word = choose_word(category, level)
         if not word:
             return
-        
+
         # Initialize variables
         guessed_letters = []  # List to store guessed letters
         tries = 6  # Number of allowed incorrect guesses
@@ -137,7 +137,7 @@ def play_hangman():
             if guess in guessed_letters:
                 print("You've already guessed that letter.")
                 continue
-            
+
             # Check if the guessed letter is in the word
             guessed_letters.append(guess)
 
@@ -149,14 +149,14 @@ def play_hangman():
             else:
                 tries -= 1
                 print("Incorrect!")
-        
+
         # Game result
         if '_' not in guessed_word:
             print(f"Congratulations, {name}! You've guessed the word:", word)
         else:
             print("Game over, you lose! The word was:", word)
             print_hangman(6)  # Display the last hanged man when losing
-        
+
         # Ask if the player wants to play again
         play_again = input("Do you want to play again? (yes/no): ").lower()
         if play_again != "yes":
