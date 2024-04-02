@@ -134,3 +134,7 @@ def play_hangman():
                 print("Please enter a single letter.")
                 continue
 
+            if guess in guessed_letters:
+                print("You've already guessed that letter.")
+                continue
+
