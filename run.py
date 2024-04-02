@@ -114,10 +114,15 @@ def play_hangman():
     print("- Good luck!")
 
     while True:
-        # Prompt user to choose a category and level
-        category = input("Choose category (fruits, animals, countries,"
-                         "programming_languages, cities, colors): ").lower()
-        level = input("Choose level (easy, medium, hard): ").lower()
+        # Input validation for category
+        while True:
+            category = input("Choose category (fruits, animals, countries, "
+                             "programming_languages, cities, colors):").lower()
+            if category.strip() in categories:
+                break
+            else:
+                print("Invalid category. Please choose from the"
+                      "provided options.")
 
         # Get a word based on user's chosen category and level
         word = choose_word(category, level)
