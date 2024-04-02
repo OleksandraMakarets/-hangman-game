@@ -124,7 +124,15 @@ def play_hangman():
                 print("Invalid category. Please choose from the"
                       "provided options.")
 
-        # Get a word based on user's chosen category and level
+        # Input validation for level
+        while True:
+            level = input("Choose level (easy, medium, hard): ").lower()
+            if level.strip() in ["easy", "medium", "hard"]:
+                break
+            else:
+                print("Invalid level. Please choose from "
+                      "'easy', 'medium', or 'hard'.")
+
         word = choose_word(category, level)
         if not word:
             return
