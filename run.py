@@ -16,3 +16,12 @@ categories = {
     "colors": ["red", "blue", "pink", "yellow", "purple", "green", "orange",
                "black", "white", "lightgreen", "aquamarine"]
 }
+
+
+# Function to choose a random word from a specific category and level
+def choose_word(category, level):
+    if category in categories:
+        words = categories[category]
+        easy_words = [word for word in words if len(word) <= 5]
+        medium_words = [word for word in words if 6 <= len(word) <= 8]
+        hard_words = [word for word in words if len(word) > 8]
