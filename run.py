@@ -57,3 +57,10 @@ O   |
    ===""")
     elif wrong == 2:
         print(r"""
++---+
+O   |
+|   |
+    |
+   ===""")
+    elif wrong == 3:
+        print(r"""
