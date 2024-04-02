@@ -129,3 +129,8 @@ def play_hangman():
             print(f"Tries left: {tries}")
             guess = input("Guess a letter: ").lower()
 
+            # Validate the guess
+            if len(guess) != 1 or not guess.isalpha():
+                print("Please enter a single letter.")
+                continue
+
