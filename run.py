@@ -35,3 +35,6 @@ def choose_word(category, level):
         else:
             print("No words available for the selected level in this category")
             return None
+    else:
+        print("Invalid category.")
+        return None
