@@ -104,3 +104,10 @@ def play_hangman():
     print("- If you use up all tries, the hangman is drawn fully, resulting "
           "in a loss.")
     print("- Good luck!")
+
+    while True:
+        # Prompt user to choose a category and level
+        category = input("Choose category (fruits, animals, countries,"
+                         "programming_languages, cities, colors): ").lower()
+        level = input("Choose level (easy, medium, hard): ").lower()
+
