@@ -32,3 +32,6 @@ def choose_word(category, level):
             return random.choice(medium_words)
         elif level == "hard" and hard_words:
             return random.choice(hard_words)
+        else:
+            print("No words available for the selected level in this category")
+            return None
