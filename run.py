@@ -156,4 +156,9 @@ def play_hangman():
         else:
             print("Game over, you lose! The word was:", word)
             print_hangman(6)  # Display the last hanged man when losing
+        
+        # Ask if the player wants to play again
+        play_again = input("Do you want to play again? (yes/no): ").lower()
+        if play_again != "yes":
+            break
 
