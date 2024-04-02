@@ -95,3 +95,12 @@ O   |
 def play_hangman():
     print("Welcome to Hangman!")
     name = input("Enter your name: ")
+    print("Rules:")
+    print("- You will be presented with a word to guess.")
+    print("- Guess the letters in the word.")
+    print("- You have 6 attempts to guess the word correctly.")
+    print("- For each incorrect guess, a part of the hangman will be drawn.")
+    print("- If you guess the word correctly, you win!")
+    print("- If you use up all tries, the hangman is drawn fully, resulting "
+          "in a loss.")
+    print("- Good luck!")
