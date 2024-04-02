@@ -50,3 +50,10 @@ def print_hangman(wrong):
         print("   ===")
     elif wrong == 1:
         print(r"""
++---+
+O   |
+    |
+    |
+   ===""")
+    elif wrong == 2:
+        print(r"""
