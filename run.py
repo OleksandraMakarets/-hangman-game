@@ -25,3 +25,6 @@ def choose_word(category, level):
         easy_words = [word for word in words if len(word) <= 5]
         medium_words = [word for word in words if 6 <= len(word) <= 8]
         hard_words = [word for word in words if len(word) > 8]
+
+        if level == "easy" and easy_words:
+            return random.choice(easy_words)
