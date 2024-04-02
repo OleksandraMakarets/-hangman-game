@@ -28,3 +28,5 @@ def choose_word(category, level):
 
         if level == "easy" and easy_words:
             return random.choice(easy_words)
+        elif level == "medium" and medium_words:
+            return random.choice(medium_words)
