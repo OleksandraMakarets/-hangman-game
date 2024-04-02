@@ -139,6 +139,7 @@ def play_hangman():
 
         # Initialize variables
         guessed_letters = []  # List to store guessed letters
+        incorrect_letters = []  # List to store incorrect letters
         tries = 6  # Number of allowed incorrect guesses
         guessed_word = ['_'] * len(word)  # List to track guessed characters
 
@@ -146,6 +147,7 @@ def play_hangman():
         while tries > 0 and '_' in guessed_word:
             # Display current progress
             print(" ".join(guessed_word))
+            print("Incorrect letters: ", ", ".join(incorrect_letters))
             print_hangman(6 - tries)  # Display the hangman
             print(f"Tries left: {tries}")
             guess = input("Guess a letter: ").lower()
@@ -169,6 +171,7 @@ def play_hangman():
                 print("Correct!")
             else:
                 tries -= 1
+                incorrect_letters.append(guess)
                 print("Incorrect!")
 
         # Game result
