@@ -111,3 +111,8 @@ def play_hangman():
                          "programming_languages, cities, colors): ").lower()
         level = input("Choose level (easy, medium, hard): ").lower()
 
+        # Get a word based on user's chosen category and level
+        word = choose_word(category, level)
+        if not word:
+            return
+
