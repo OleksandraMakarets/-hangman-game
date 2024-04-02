@@ -90,3 +90,8 @@ O   |
 /|\ |
 / \ |
    ===""")
+
+
+def play_hangman():
+    print("Welcome to Hangman!")
+    name = input("Enter your name: ")
