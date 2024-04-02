@@ -115,4 +115,9 @@ def play_hangman():
         word = choose_word(category, level)
         if not word:
             return
+        
+        # Initialize variables
+        guessed_letters = []  # List to store guessed letters
+        tries = 6  # Number of allowed incorrect guesses
+        guessed_word = ['_'] * len(word)  # List to track guessed characters
 
