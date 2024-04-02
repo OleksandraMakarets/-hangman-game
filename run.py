@@ -11,4 +11,8 @@ categories = {
     "countries": ["usa", "ireland", "england", "luxembourg", "ukraine",
                   "brazil", "canada", "germany", "japan", "australia",
                   "france", "kazakhstan"],
+    "cities": ["london", "paris", "manchester", "tokyo", "beijing", "kiyv",
+               "cairo", "philadelphia", "sydney", "alexandria", "mumbai"],
+    "colors": ["red", "blue", "pink", "yellow", "purple", "green", "orange",
+               "black", "white", "lightgreen", "aquamarine"]
 }
