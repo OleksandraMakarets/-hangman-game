@@ -184,7 +184,8 @@ def play_hangman():
         # Ask if the player wants to play again
         play_again = input("Do you want to play again? (yes/no): ").lower()
         if play_again != "yes":
-            break
+            print(f"Thank you for playing, {name}! Have a nice day!")
+            return
 
 
 # Play the game
