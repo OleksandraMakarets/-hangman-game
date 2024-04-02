@@ -121,3 +121,11 @@ def play_hangman():
         tries = 6  # Number of allowed incorrect guesses
         guessed_word = ['_'] * len(word)  # List to track guessed characters
 
+        # Main game loop
+        while tries > 0 and '_' in guessed_word:
+            # Display current progress
+            print(" ".join(guessed_word))
+            print_hangman(6 - tries)  # Display the hangman
+            print(f"Tries left: {tries}")
+            guess = input("Guess a letter: ").lower()
+
