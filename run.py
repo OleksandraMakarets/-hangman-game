@@ -137,4 +137,7 @@ def play_hangman():
             if guess in guessed_letters:
                 print("You've already guessed that letter.")
                 continue
+            
+            # Check if the guessed letter is in the word
+            guessed_letters.append(guess)
 
