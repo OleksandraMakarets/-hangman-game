@@ -121,3 +121,48 @@ This digital version of Hangman retains all the charm and excitement of the clas
 - __Introducing into the game the ability to track the progress of the player.__
 - __For the game to have leaderboards or highscores.__
 - __For the game to have multiplayer or online features so that the player can challenge his friends or other players in real-time matches.__
+
+## Testing
+
+### Input Validation Testing
+
+| Tested  | Expected Result| Actual Result |
+| :---         |     :---:      |          ---: |
+| Entered an empty name  | The game should prompt the user to enter a valid name  and provide appropriate error message.    | The game correctly displayed error message and prompted the user to enter valid input.   |
+
+### Category and Level Selection Testing
+
+|   Tested  | Expected Result| Actual Result |
+| :---         |     :---:      |          ---: |
+| Selected different categories and levels to verify word choices and ensure no errors occur during selection.   |  The game should offer word choices based on the selected category and level, and display the chosen options accurately.   | The game correctly displayed word choices corresponding to the selected category and level without any errors.  |
+
+### Gameplay Testing
+
+|   Tested  | Expected Result| Actual Result |
+| :---         |     :---:      |          ---: |
+| Guessed both correct and incorrect letters to observe game response and hangman progression.  |  The game should update the word display, track guessed letters, decrement remaining tries, and display the hangman accordingly.  | The game accurately responded to guessed letters, updated the word display and hangman, and correctly identified win or loss conditions.  |
+
+### User Experience Testing
+
+|   Tested  | Expected Result| Actual Result |
+| :---         |     :---:      |          ---: |
+| Readability of text, visual appeal of graphics, and clarity of instructions were assessed  |  The hangman ASCII art and word display should be visually appealing and enhance the overall gameplay experience.   | The hangman graphics were displayed correctly, and the instructions were clear, contributing to a positive user experience.    |
+
+### Edge Case Testing
+
+|   Tested  | Expected Result| Actual Result |
+| :---         |     :---:      |          ---: |
+| Entered extremely long and special characters as input to assess the game's robustness.  |  The game should handle edge cases gracefully and prevent crashes or unexpected behavior.   | The game handled edge cases appropriately and continued to function without issues.   |
+
+### Performance Testing
+
+|   Tested  | Expected Result| Actual Result |
+| :---         |     :---:      |          ---: |
+|  Loading times, responsiveness to input, and smoothness of animations were evaluated.  |  The game should load quickly, respond promptly to user actions, and provide smooth animations.   | The game exhibited satisfactory performance, with acceptable loading times and smooth animations.    |
+
+### Cross-Browser and Cross-Platform Testing
+
+|   Tested  | Expected Result| Actual Result |
+| :---         |     :---:      |          ---: |
+| The game was tested on various web browsers and operating systems to ensure compatibility. |  The game should function consistently across different browsers and platforms without any compatibility issues.  |  The game performed well across different environments, maintaining consistency and functionality. Web browsers: Chrome, Firefox, Safari, operating systems: Windows, macOS. |
+
