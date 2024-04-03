@@ -138,22 +138,32 @@ def play_hangman():
     while True:
         # Input validation for category
         while True:
-            category = input("Choose category (fruits, animals, countries, "
-                             "programming_languages, cities, colors):").lower()
-            if category.strip() in categories:
+            print("Choose a category:")
+            for i, category in enumerate(categories.keys(), start=1):
+                print(f"{i}. {category.capitalize()}")
+            category_choice = input("Enter the category number: ").strip()
+            if (
+                category_choice.isdigit() and
+                1 <= int(category_choice) <= len(categories)
+            ):
+                category = list(categories.keys())[int(category_choice) - 1]
                 break
             else:
-                print("Invalid category. Please choose from the"
-                      "provided options.")
+                print("Invalid choice. Please enter a valid number.")
 
         # Input validation for level
         while True:
-            level = input("Choose level (easy, medium, hard): ").lower()
-            if level.strip() in ["easy", "medium", "hard"]:
+            print("Choose a level:")
+            print("1. Easy")
+            print("2. Medium")
+            print("3. Hard")
+            level_choice = input("Enter the level number: ").strip()
+            if level_choice.isdigit() and 1 <= int(level_choice) <= 3:
+                levels = ["easy", "medium", "hard"]
+                level = levels[int(level_choice) - 1]
                 break
             else:
-                print("Invalid level. Please choose from "
-                      "'easy', 'medium', or 'hard'.")
+                print("Invalid choice. Please enter a valid number.")
 
         word = choose_word(category, level)
         if not word:
