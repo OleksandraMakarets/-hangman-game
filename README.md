@@ -171,3 +171,16 @@ This digital version of Hangman retains all the charm and excitement of the clas
 - __PEP8__ All clear, no errors found, there is a warning when testing using 
   
   ![PEP8 validator](media/testing.png)
+
+### Bugs
+
+#### Solved bugs
+  
+- E501 line too long (90 > 79 characters)
+- E231 missing whitespace after ','
+- E302 expected 2 blank lines, found 1
+- If the player lost, the hangman was not displayed completely. 
+  
+### Unfixed Bugs
+
+- No unfixed bugs
