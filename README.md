@@ -97,4 +97,21 @@ This digital version of Hangman retains all the charm and excitement of the clas
   -  You can continue guessing letters until you either guess the word correctly or run out of attempts.
   
   ![Guessing Letters](media/incorrect.png)
+
+- __Game Outcome__
+
+  - If you correctly guess all the letters in the word before using up all your attempts, you win the game!
+
+  ![Footer Page](media/winner.png)
+
+  - If you use up all your attempts before guessing the word, the hangman is fully drawn, and you lose the game.
+
+  ![Footer Page](media/over.png)
+
+- __Play Again__
+
+  - After each game, you will be asked if you want to play again.
+  - Enter "yes" to play another round or "no" to exit the game.
+
+  ![About Page](media/playagain.png)
  
