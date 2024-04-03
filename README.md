@@ -23,3 +23,15 @@ This digital version of Hangman retains all the charm and excitement of the clas
 -  For each incorrect guess, a part of the hangman will be drawn.
 - If you guess the word correctly, you win!
 - If you use up all tries, the hangman is drawn fully, resulting in a loss.
+
+## User Experience (UX)
+
+### Clear Instructions
+
+- The game provides clear instructions on how to play, including rules, objectives, and how to interact with the game.
+
+### FlowChart
+
+-  The [flowchart](media/flowchart.png) below illustrates the sequential steps of the hangman guessing game, depicting how users can navigate through the game and the available options at each stage.
+
+![The Hangman ](media/flowchart.png)
