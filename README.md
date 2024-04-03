@@ -224,7 +224,7 @@ These steps were taken for the deployment:
 
 ### Content
 
-- I used the GPT chat to learn the rules of the game and create categories of wordsю
+- I used the GPT chat to learn the rules of the game and create categories of words.
 - [Love Sandwiches Project](https://github.com/tildeholmqvist/LoveSandwiches)
 - I got the idea for the game here [YouTube](https://www.youtube.com/watch?v=lJ7RhvNvsnc).
 
