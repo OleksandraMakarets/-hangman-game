@@ -166,3 +166,8 @@ This digital version of Hangman retains all the charm and excitement of the clas
 | :---         |     :---:      |          ---: |
 | The game was tested on various web browsers and operating systems to ensure compatibility. |  The game should function consistently across different browsers and platforms without any compatibility issues.  |  The game performed well across different environments, maintaining consistency and functionality. Web browsers: Chrome, Firefox, Safari, operating systems: Windows, macOS. |
 
+### Python Validation Testing
+
+- __PEP8__ All clear, no errors found, there is a warning when testing using 
+  
+  ![PEP8 validator](media/testing.png)
