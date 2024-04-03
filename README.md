@@ -184,3 +184,10 @@ This digital version of Hangman retains all the charm and excitement of the clas
 ### Unfixed Bugs
 
 - No unfixed bugs
+
+## Technologies
+
+- Python - to create the game.
+- GitHub - to store the project's code.
+- lucid.app - to create a flowchart.
+- Heroku - to deploy the game.
