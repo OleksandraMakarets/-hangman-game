@@ -191,3 +191,31 @@ This digital version of Hangman retains all the charm and excitement of the clas
 - GitHub - to store the project's code.
 - lucid.app - to create a flowchart.
 - Heroku - to deploy the game.
+
+## Deployment
+
+The live link can be found here - [The Hangman game](https://hangman-game-makarets-4c786ce4abe6.herokuapp.com/)
+
+This project was deployed using the Code Institute's mock terminal for Heroku.
+
+These steps were taken for the deployment:
+
+- Create an account or log in to Heroku.
+- On the dashboard, in the right corner click the button that says "New" and choose "Create New App".
+- Pick a name of the app. The name has to be unique because it can't match any other name being used.
+- Select your region, United States or Europe.
+- Add payment method if needed.
+- Click "Create App".
+- On the menu at the top of the page, go to the Settings Tab.
+- Scroll down to Config Vars and click "Reveal Config Vars".
+- Add a new Config Var and enter PORT in the keybox and 8000 in the valuebox.
+- Under Config Vars you will find Buildpacks.
+- Click "Add Buildpacks".
+- Select python.
+- Repeat this step but select nodejs.
+- Important to know: The python has to be picked before the nodejs, if it is not in order 6you can change the order by click and drag to correct the order.
+- Scroll back to the top of the page, to the menu and go to the Deploy Tab.
+- Select GitHub as the deployment method and confirm.
+- Search for you repository name and connect that.
+- Scroll down to the bottom of the page and there you can choose if you want the deploys to be Automatic or Manually. The Manually deployed branches needs redepolying each time the repository is updated.
+- Click "View" to see the live site.
