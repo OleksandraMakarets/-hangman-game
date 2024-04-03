@@ -227,3 +227,7 @@ These steps were taken for the deployment:
 - I used the GPT chat to learn the rules of the game and create categories of wordsю
 - [Love Sandwiches Project](https://github.com/tildeholmqvist/LoveSandwiches)
 - I got the idea for the game here [YouTube](https://www.youtube.com/watch?v=lJ7RhvNvsnc).
+
+## Author
+
+- [@oleksandramakarets](https://github.com/OleksandraMakarets)
