@@ -69,3 +69,18 @@ This digital version of Hangman retains all the charm and excitement of the clas
   - The user can familiarize himself with the rules of the game before starting it.
   
   ![Rules of games](media/rules.png)
+
+  - __Choose Category__
+
+  - You will be prompted to choose a category, to provide variety in gameplay.
+  - Categories include fruits, animals, programming languages, countries, cities, and colors.
+  - Select the category by entering the corresponding numbers.
+  
+  ![Choose Category](media/categories.png)
+
+- __Choose Level__
+  - You will be prompted to choose a level, to provide challenge in gameplay.
+  - Levels are categorized as easy, medium, or hard based on word length.
+  - Select the level by entering the corresponding numbers.
+  
+  ![Choose Level](media/level.png)
