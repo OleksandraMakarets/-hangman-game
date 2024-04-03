@@ -49,3 +49,23 @@ This digital version of Hangman retains all the charm and excitement of the clas
   - As a Player, I want to be notified when I win or lose the game, so I know the outcome of my gameplay.
   - As a Player, I want the option to play again after completing a game, so I can enjoy multiple rounds of gameplay without restarting the application.
   - As a Visitor, I want clear instructions on how to play the game, including rules and controls, so I can easily understand and enjoy the gameplay experience.
+
+## Features
+
+### Existing Features
+
+- __Welcome screen__
+
+  - Welcome screen includes visual elements such as ASCII art for the hangman figure and word display. 
+  
+  ![User-Friendly Interface](media/welcome.png)
+
+  - The ability to enter a user name is included to maintain a friendly atmosphere during the game.
+  
+  ![User-Friendly Interface](media/entergame.png)
+
+- __Rules of games__
+
+  - The user can familiarize himself with the rules of the game before starting it.
+  
+  ![Rules of games](media/rules.png)
