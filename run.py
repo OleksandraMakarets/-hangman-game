@@ -18,6 +18,27 @@ categories = {
 }
 
 
+# Hangman logo and word "MAN" as ASCII art
+def print_logo():
+    logo = r"""
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+========="""
+
+    man_text = r"""
+  M   M   A   N   N
+  MM MM  A A  NN  N
+  M M M AAAAA N N N
+  M   M A   A N  NN
+"""
+    print(logo)
+    print(man_text)
+
+
 # Function to choose a random word from a specific category and level
 def choose_word(category, level):
     if category in categories:
@@ -94,6 +115,7 @@ O   |
 
 def play_hangman():
     print("Welcome to Hangman!")
+    print_logo()  # Print hangman logo with the word "MAN"
 
     # Input validation for name
     while True:
