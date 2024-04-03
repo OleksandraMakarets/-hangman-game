@@ -219,3 +219,11 @@ These steps were taken for the deployment:
 - Search for you repository name and connect that.
 - Scroll down to the bottom of the page and there you can choose if you want the deploys to be Automatic or Manually. The Manually deployed branches needs redepolying each time the repository is updated.
 - Click "View" to see the live site.
+
+## Credits
+
+### Content
+
+- I used the GPT chat to learn the rules of the game and create categories of wordsю
+- [Love Sandwiches Project](https://github.com/tildeholmqvist/LoveSandwiches)
+- I got the idea for the game here [YouTube](https://www.youtube.com/watch?v=lJ7RhvNvsnc).
