@@ -114,4 +114,10 @@ This digital version of Hangman retains all the charm and excitement of the clas
   - Enter "yes" to play another round or "no" to exit the game.
 
   ![About Page](media/playagain.png)
- 
+
+### Features left to implement
+
+- __Add hints to the game that will help players guess the word.__
+- __Introducing into the game the ability to track the progress of the player.__
+- __For the game to have leaderboards or highscores.__
+- __For the game to have multiplayer or online features so that the player can challenge his friends or other players in real-time matches.__
