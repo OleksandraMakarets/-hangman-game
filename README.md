@@ -84,3 +84,17 @@ This digital version of Hangman retains all the charm and excitement of the clas
   - Select the level by entering the corresponding numbers.
   
   ![Choose Level](media/level.png)
+
+- __Guessing Letters__
+
+  - Once the game starts, you will see underscores representing each letter of the hidden word.
+  -  Guess a letter by typing it in and pressing enter.
+  -  If the letter is correct, it will replace the corresponding underscore(s) in the word.
+
+  ![Guessing Letters](media/letters.png)
+
+  - If the letter is incorrect, a part of the hangman will be drawn, and the incorrect letter will be displayed.
+  -  You can continue guessing letters until you either guess the word correctly or run out of attempts.
+  
+  ![Guessing Letters](media/incorrect.png)
+ 
