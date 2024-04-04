@@ -134,6 +134,8 @@ def play_hangman():
     print("- If you use up all tries, the hangman is drawn fully, resulting "
           "in a loss.")
     print("- Good luck!")
+    print("================================"
+          "=================================================")
 
     while True:
         # Input validation for category
@@ -153,6 +155,8 @@ def play_hangman():
 
         # Input validation for level
         while True:
+            print("================================"
+                  "=================================================")
             print("Choose a level:")
             print("1. Easy")
             print("2. Medium")
