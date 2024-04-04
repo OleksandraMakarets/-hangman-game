@@ -168,7 +168,7 @@ This digital version of Hangman retains all the charm and excitement of the clas
 
 ### Python Validation Testing
 
-- __PEP8__ All clear, no errors found.
+- [PEP8](https://pep8ci.herokuapp.com/#) All clear, no errors found.
   
   ![PEP8 validator](media/testing.png)
 
